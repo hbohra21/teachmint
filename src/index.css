@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.directoryText {
+  justify-content: center;
+  display: flex;
+}
+
+.userCard {
+  width: 100%;
+  margin-bottom: 16px;
+  background: #cfe2f3;
+}
+
+.userCardContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.clock {
+  background: #0d0c0c;
+  color: #ffff;
+}
+
+/* .userInfo {
+  background: beige;
+} */
+
+.topBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.topBar button {
+  padding: 8px 16px;
+  margin-right: 10px;
+}
+
+.topBar label {
+  margin-right: 10px;
+}
+
+.topBar .clock {
+  padding: 1px;
+  /* width: 20%; */
+  /* margin-right: 10px; */
+}
+
+.topBar .ant-select {
+  margin-right: 10px;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 26px;
+}
+
+.userName {
+  margin-bottom: 10px;
+}
+
+.userEmail {
+  text-align: right;
+}
+
+.userAddress {
+  text-align: right;
+}
+
+.postCard {
+  margin-top: 20px;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
